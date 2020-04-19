@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="700.0" style="-fx-background-color: lightcoral;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Assignment2Controller">
+    <children>
+        <Label layoutX="541.0" layoutY="16.0" prefHeight="42.0" prefWidth="104.0" text="Total Score:" textFill="#fffbfb">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="enteredWord" layoutX="166.0" layoutY="12.0" prefHeight="42.0" prefWidth="262.0" />
+        <Button layoutX="445.0" layoutY="12.0" mnemonicParsing="false" onAction="#submit" prefHeight="42.0" prefWidth="80.0" style="-fx-background-color: lightskyblue;" text="Submit" />
+        <Pane fx:id="bpoint" layoutX="222.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: Skyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="B">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="cpoint" layoutX="289.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="C">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="apoint" layoutX="154.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="A">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="9" />
+            </children>
+        </Pane>
+        <Pane fx:id="dpoint" layoutX="358.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="D">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="4" />
+            </children>
+        </Pane>
+        <Pane fx:id="epoint" layoutX="422.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="E">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="36.0" layoutY="27.0" text="12" />
+            </children>
+        </Pane>
+        <Pane fx:id="fpoint" layoutX="489.0" layoutY="109.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="F">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="gpoint" layoutX="156.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="G">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="3" />
+            </children>
+        </Pane>
+        <Pane fx:id="hpoint" layoutX="222.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="H">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="ipoint" layoutX="290.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="I">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="8" />
+            </children>
+        </Pane>
+        <Pane fx:id="jpoint" layoutX="357.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="J">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="1" />
+            </children>
+        </Pane>
+        <Pane fx:id="kpoint" layoutX="422.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="K">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="1" />
+            </children>
+        </Pane>
+        <Pane fx:id="lpoint" layoutX="490.0" layoutY="166.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="L">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="4" />
+            </children>
+        </Pane>
+        <Pane fx:id="mpoint" layoutX="156.0" layoutY="223.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="M">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="npoint" layoutX="223.0" layoutY="223.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="7.0" layoutY="1.0" text="N">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="6" />
+            </children>
+        </Pane>
+        <Pane fx:id="opoint" layoutX="290.0" layoutY="223.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="O">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="8" />
+            </children>
+        </Pane>
+        <Pane fx:id="ppoint" layoutX="357.0" layoutY="224.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="9.0" layoutY="11.0" text="P">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="26.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="qpoint" layoutX="423.0" layoutY="225.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="Q">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="26.0" layoutY="27.0" text="1" />
+            </children>
+        </Pane>
+        <Pane fx:id="rpoint" layoutX="490.0" layoutY="225.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="R">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="6" />
+            </children>
+        </Pane>
+        <Pane fx:id="spoint" layoutX="156.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="S">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="4" />
+            </children>
+        </Pane>
+        <Pane fx:id="tpoint" layoutX="223.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="T">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="6" />
+            </children>
+        </Pane>
+        <Pane fx:id="upoint" layoutX="289.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="U">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="4" />
+            </children>
+        </Pane>
+        <Pane fx:id="vpoint" layoutX="356.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="V">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="wpoint" layoutX="422.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="W">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane layoutX="490.0" layoutY="283.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: Skyblue;" fx:id="xpoint">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="X">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="1" />
+            </children>
+        </Pane>
+        <Pane fx:id="ypoint" layoutX="288.0" layoutY="343.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="Y">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="2" />
+            </children>
+        </Pane>
+        <Pane fx:id="zpoint" layoutX="354.0" layoutY="343.0" prefHeight="49.0" prefWidth="57.0" style="-fx-background-color: lightSkyblue;">
+            <children>
+                <Label layoutX="10.0" layoutY="6.0" text="Z">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="46.0" layoutY="27.0" text="1" />
+            </children>
+        </Pane>
+        <Label fx:id="yourTotal" layoutX="660.0" layoutY="23.0" prefHeight="23.0" prefWidth="38.0" text="0" textFill="#f8f8f8">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="displayStatement" alignment="CENTER" layoutX="107.0" layoutY="80.0" prefHeight="17.0" prefWidth="381.0" textFill="#1a1818" />
+        <Pane layoutX="26.0" layoutY="408.0" prefHeight="118.0" prefWidth="654.0" style="-fx-background-color: #f8f8f8;">
+            <children>
+                <Label layoutX="40.0" layoutY="24.0" text="Previous Words" textFill="#1a1818" />
+                <Label fx:id="myList" alignment="CENTER" layoutX="7.0" layoutY="49.0" prefHeight="49.0" prefWidth="636.0" textFill="#1a1818" />
+            </children>
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+        </Pane>
+    </children>
+</AnchorPane>
